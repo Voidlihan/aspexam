@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Models\Application.cs" />
+    <Compile Include="Models\ApplicationDTO.cs" />
     <Compile Include="Models\College.cs" />
     <Compile Include="Models\Profile.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

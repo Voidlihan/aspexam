@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Domain.Models.Models
 {
-    public class Application
+    public class ApplicationDTO
     {
-        public Guid ID { get; set; } = Guid.NewGuid();
+        public int ID { get; set; }
         public string IIN { get; set; }
         public int Score { get; set; }
         public Profile Profile1 { get; set; }

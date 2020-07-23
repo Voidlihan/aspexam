@@ -54,6 +54,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Data\ApplicationContext.cs" />
+    <Compile Include="Data\IUnitOfWork.cs" />
+    <Compile Include="EF\ApplicationRepository.cs" />
+    <Compile Include="Implementations\UnitOfWorkEF.cs" />
+    <Compile Include="Interfaces\IRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
